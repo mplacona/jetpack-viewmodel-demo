@@ -1,6 +1,8 @@
 package uk.co.placona.jetpackdemo1
 
-class DataSource {
+import android.arch.lifecycle.ViewModel
+
+class DataSource: ViewModel() {
     private val tag = MainActivity::class.java.simpleName
     private lateinit var myRandomNumber:Number
 
